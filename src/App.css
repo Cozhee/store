@@ -31,3 +31,21 @@ a {
 .header-upper .input-group-text {
     background-color: var(--color-febd69);
 }
+
+.header-links img {
+    width: 35px;
+    height: 35px;
+}
+
+.header-links p {
+    margin-bottom: 0;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: inherit;
+}
+
+.cart {
+    gap: 10px;
+}
