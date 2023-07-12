@@ -22,7 +22,7 @@ const Header = () => {
           <div className="row align-items-center">
             <div className="col-2">
               <h2>
-                <Link className="text-white">Dev Corner</Link>
+                <Link className="text-white">Famazon</Link>
               </h2>
             </div>
             <div className="col-5">
@@ -47,19 +47,50 @@ const Header = () => {
                   </Link>
                 </div>
                 <div>
-                  <Link className="d-flex align-items-center gx-10 text-white cart">
+                  <Link className="d-flex align-items-center text-white cart">
                     <img src="/images/menu.svg" alt="menu"/>
                     <p>Menu</p>
                   </Link>
                 </div>
                 <div>
-                  <Link className="d-flex align-items-center gx-10 text-white cart">
+                  <Link className="d-flex align-items-center text-white cart">
                     <img src="/images/cart.svg" alt="cart"/>
                     <div className="d-flex flex-column">
                       <span className="badge bg-white text-dark">0</span>
                       <p>$12.59</p>
                     </div>
                   </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="header-bottom py-3">
+        <div className="container-xxl">
+          <div className="row">
+            <div className="col-12">
+              <div className="menu-bottom d-flex align-items-center gap-15">
+                <div>
+                  <div className="dropdown">
+                    <button className="btn btn-secondary dropdown-toggle bg-transparent border-0" type="button" id="dropdownMenuButton1"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                      Shop Catagories
+                    </button>
+                    <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                      <li><a className="dropdown-item" href="/">Action</a></li>
+                      <li><a className="dropdown-item" href="/">Another action</a></li>
+                      <li><a className="dropdown-item" href="/">Something else here</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div className="menu-links">
+                  <div className="d-flex align-items-center gap-15">
+                    <NavLink className="text=white" to="">Home</NavLink>
+                    <NavLink to="/">Our Store</NavLink>
+                    <NavLink to="/">Blogs</NavLink>
+                    <NavLink to="/contact">Contact</NavLink>
+                  </div>
                 </div>
               </div>
             </div>
