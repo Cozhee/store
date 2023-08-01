@@ -1,27 +1,28 @@
 import React from 'react'
 import { Link } from "react-router-dom";
+import { BsTwitter, BsInstagram, BsLinkedin, BsFacebook } from 'react-icons/bs'
 
 const Footer = () => {
   return (
       <footer>
-        <div className="top-section container py-3">
-            <div className="row d-flex align-items-center py-4">
-                <div className="col-5">
-                    <div className="footer-top d-flex gap-30">
-                        <img src="/images/newsletter.png" alt="newsletter"/>
-                        <h2 className="text-white mb-0">Sign up for newsletter</h2>
-                    </div>
-                </div>
-                <div className="col-7">
-                    <div className="input-group">
-                        <button className="input-group-text" id="basic-addon1">Submit</button>
-                        <input type="text" className="form-control" placeholder="email" aria-label="email"
-                               aria-describedby="basic-addon1" />
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div className="container middle-section">
+          <div className="top-section container py-3">
+              <div className="row d-flex align-items-center py-4">
+                  <div className="col-5">
+                      <div className="footer-top d-flex gap-30">
+                          <img src="/images/newsletter.png" alt="newsletter"/>
+                          <h2 className="text-white mb-0">Sign up for newsletter</h2>
+                      </div>
+                  </div>
+                  <div className="col-7">
+                      <div className="input-group">
+                          <button className="input-group-text" id="basic-addon1">Submit</button>
+                          <input type="text" className="form-control" placeholder="email" aria-label="email"
+                                 aria-describedby="basic-addon1" />
+                      </div>
+                  </div>
+              </div>
+         </div>
+        <div className="container middle-section mt-4">
             <div className="row">
                 <div className="col-4 text-white mb-3">
                     <h4>Contact Us</h4>
@@ -31,6 +32,12 @@ const Footer = () => {
                             <p>Telephone: 320-899-6324</p>
                             <p>Mobile: 620-200-1488</p>
                         </address>
+                    </div>
+                    <div className="social-icons d-flex gap-30 align-items-center">
+                        <a href="https://www.twitter.com" target="_blank" rel="noreferrer"><BsTwitter className="text-white" size={25}/></a>
+                        <a href="https://www.instagram.com" target="_blank" rel="noreferrer"><BsInstagram className="text-white" size={25}/></a>
+                        <a href="https://www.linkedin.com" target="_blank" rel="noreferrer"><BsLinkedin className="text-white" size={25}/></a>
+                        <a href="https://www.facebook.com" target="_blank" rel="noreferrer"><BsFacebook className="text-white" size={25}/></a>
                     </div>
                 </div>
                 <div className="col-3 text-white mb-3">
