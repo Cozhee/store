@@ -77,6 +77,45 @@ const Home = () => {
             </div>
           </div>
         </section>
+
+        <section className="home-wrapper-2 py-5">
+          <div className="container">
+            <div className="row">
+              <div className="col-12">
+                <div className="services align-items-center d-flex justify-content-between">
+                  <div className="d-flex align-items-center gap-10">
+                    <img src="images/service.png" alt=""/>
+                    <div>
+                      <h6>Free Shipping</h6>
+                      <p className="text-muted">From all order over $100</p>
+                    </div>
+                  </div>
+                  <div className="d-flex align-items-center gap-10">
+                    <img src="images/service-03.png" alt=""/>
+                    <div>
+                      <h6>Support 24/7</h6>
+                      <p className="text-muted">Shop with an expert</p>
+                    </div>
+                  </div>
+                  <div className="d-flex align-items-center gap-10">
+                    <img src="images/service-04.png" alt=""/>
+                    <div>
+                      <h6>Affordable Prices</h6>
+                      <p className="text-muted">Get factory prices</p>
+                    </div>
+                  </div>
+                  <div className="d-flex align-items-center gap-10">
+                    <img src="images/service-05.png" alt=""/>
+                    <div>
+                      <h6>Secure Payment</h6>
+                      <p className="text-muted">100% protected payment</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
       </>
   )
 
